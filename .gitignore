@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+artifacts/
+.env/
+venv/
+utils/
+models/
+
+model_factory.py
+orchestrator.py
+task_detector.py
+test.py
+.env

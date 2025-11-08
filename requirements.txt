@@ -1,0 +1,9 @@
+langchain
+openai
+torch
+scikit-learn
+pandas
+plotly
+numpy
+tqdm
+joblib
