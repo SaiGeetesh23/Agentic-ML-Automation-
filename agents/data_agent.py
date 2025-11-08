@@ -23,7 +23,7 @@ class DataAgent:
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(X)
         task_type = "classification" if len(np.unique(y)) <= 10 else "regression"
-        print(f"🔍 Detected task type: {task_type}")
+        print(f"Detected task type: {task_type}")
         if task_type == "classification":
             stratify_arg = y
         else:
