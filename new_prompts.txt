@@ -1,0 +1,53 @@
+- load dataset data/GOOG.csv target adjClose
+- train model
+- predict open=101 high=103 low=99
+- run analysis
+- generate review
+
+1....load dataset data/diabetes.csv target Outcome
+predict age=25, glucose=90, bmi=22, pregnancies=1
+Predict diabetes for Glucose=150, BMI=32, Age=45
+
+
+
+2....load dataset data/data.csv target diagnosis
+
+Predict breast cancer for 
+radius_mean=12, texture_mean=15, area_mean=450, smoothness_mean=0.09
+
+Predict breast cancer for 
+radius_mean=20, texture_mean=25, area_mean=1400, smoothness_mean=0.12
+
+3....load dataset data/Housing.csv target price
+predict area=3000 bedrooms=4 bathrooms=3 stories=2 mainroad=yes guestroom=yes basement=yes hotwaterheating=no airconditioning=yes parking=2 prefarea=yes furnishingstatus=furnished
+predict area=1500 bedrooms=2 bathrooms=1 stories=1 mainroad=yes guestroom=no basement=no hotwaterheating=no airconditioning=no parking=1 prefarea=no furnishingstatus=semi-furnished
+
+
+4....load dataset data/GOOG.csv target adjClose
+open=120, high=121.5, low=118.9, volume=1800000
+
+5....load dataset data/creditcard.csv target Class
+
+predict Time=30000 V1=0.8 V2=-0.4 V3=1.1 V4=0.3 V5=-0.5 V6=0.2 V7=-0.1 V8=0.05 V9=-0.3 V10=0.6 V11=-0.2 V12=0.4 V13=0.1 V14=-0.8 V15=0.2 V16=-0.1 V17=0.3 V18=0.1 V19=0.05 V20=-0.2 V21=0.1 V22=0.02 V23=-0.3 V24=0.4 V25=-0.1 V26=0.05 V27=-0.02 V28=0.1 Amount=50
+
+predict Time=60000 V1=-3.2 V2=2.6 V3=-4.1 V4=1.8 V5=-3.2 V6=1.7 V7=-2.3 V8=1.1 V9=-1.8 V10=3.9 V11=2.4 V12=-4.5 V13=1.7 V14=-7.9 V15=0.9 V16=2.6 V17=-3.4 V18=1.5 V19=-1.4 V20=1.9 V21=0.5 V22=-0.9 V23=1.6 V24=-2.4 V25=1.1 V26=0.3 V27=-0.7 V28=1.4 Amount=199
+
+
+6....load dataset data/HepatitisCdata.csv target Category
+
+predict Age=32 Sex=1 ALB=45 ALP=67 ALT=22 AST=20 BIL=0.4 CHE=9.8 CHOL=185 CREA=0.9 GGT=18 PROT=72
+predict Age=58 Sex=1 ALB=28 ALP=210 ALT=145 AST=160 BIL=3.2 CHE=4.5 CHOL=120 CREA=1.4 GGT=220 PROT=63
+predict Age=45 Sex=1 ALB=36 ALP=120 ALT=65 AST=72 BIL=1.6 CHE=6.2 CHOL=165 CREA=1.0 GGT=70 PROT=68
+
+
+7....load dataset data/AirQuality.csv target C6H6(GT)
+
+predict CO(GT)=2.1 PT08.S1(CO)=1350 NMHC(GT)=160 C6H6(GT)=? PT08.S2(NMHC)=900 NOx(GT)=90 PT08.S3(NOx)=700 NO2(GT)=65 PT08.S4(NO2)=1200 PT08.S5(O3)=900 T=18.5 RH=45 AH=0.84
+
+predict CO(GT)=5.4 PT08.S1(CO)=1750 NMHC(GT)=300 PT08.S2(NMHC)=1200 NOx(GT)=180 PT08.S3(NOx)=900 NO2(GT)=110 PT08.S4(NO2)=1450 PT08.S5(O3)=600 T=12.0 RH=65 AH=1.22
+
+
+HR:
+predict Age=28 BusinessTravel=Travel_Frequently DailyRate=950 Department=Sales DistanceFromHome=18 Education=2 EducationField=LifeSciences EnvironmentSatisfaction=2 Gender=Male HourlyRate=42 JobInvolvement=2 JobLevel=1 JobRole=SalesRepresentative JobSatisfaction=1 MaritalStatus=Single MonthlyIncome=3200 MonthlyRate=21000 NumCompaniesWorked=4 OverTime=Yes PercentSalaryHike=11 PerformanceRating=3 RelationshipSatisfaction=2 StockOptionLevel=0 TotalWorkingYears=3 TrainingTimesLastYear=2 WorkLifeBalance=2 YearsAtCompany=2 YearsInCurrentRole=1 YearsSinceLastPromotion=0 YearsWithCurrManager=1
+
+predict Age=45 BusinessTravel=Non-Travel DailyRate=550 Department=Research & Development DistanceFromHome=6 Education=4 EducationField=Medical EnvironmentSatisfaction=4 Gender=Female HourlyRate=78 JobInvolvement=3 JobLevel=3 JobRole=HealthcareRepresentative JobSatisfaction=4 MaritalStatus=Married MonthlyIncome=9800 MonthlyRate=24000 NumCompaniesWorked=1 OverTime=No PercentSalaryHike=14 PerformanceRating=3 RelationshipSatisfaction=4 StockOptionLevel=2 TotalWorkingYears=18 TrainingTimesLastYear=3 WorkLifeBalance=3 YearsAtCompany=12 YearsInCurrentRole=8 YearsSinceLastPromotion=3 YearsWithCurrManager=7
